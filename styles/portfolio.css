@@ -3,6 +3,26 @@
   font-family: "Open Sans", sans-serif;
 }
 
+.btn-primary {
+  height: 64px;
+  background: #fd6e0a;
+  border-radius: 5px;
+  border: 0;
+  padding: 18px 35px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+}
+.btn-contact {
+  height: 64px;
+  border: 1px solid #fd6e0a;
+  color: #fd6e0a;
+  border-radius: 5px;
+  padding: 18px 35px;
+  background: #FFF8F3;
+  font-size: 20px;
+  font-weight: 700;
+}
 /* Navigation and header styles */
 nav {
   display: flex;
@@ -14,13 +34,41 @@ nav {
   font-size: 45px;
   color: #181818;
 }
-nav ul{
+nav ul {
   display: flex;
+  align-items: center;
 }
-nav li{
+nav li {
   list-style: none;
   margin-left: 50px;
 }
 .text-primary {
   color: #fd6e0a;
+}
+
+/* banner styles */
+
+.banner {
+  display: flex;
+  align-items: center;
+  margin: 0 200px;
+}
+
+.banner-title {
+  font-weight: 700;
+  font-size: 85px;
+}
+.banner-sub-title {
+  font-weight: 600;
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+.banner-description {
+  font-size: 18px;
+  color: #757575;
+  margin-bottom: 30px;
+}
+.contact{
+  display: flex;
+  gap: 30px;
 }
