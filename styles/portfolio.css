@@ -200,3 +200,12 @@ main {
 .connect a{
   text-decoration: none;
 }
+/* footer styles */
+.footer{
+  background: #fae8dc;
+}
+.copy-right{
+  color: #474747;
+  text-align: center;
+  padding: 30px 0;
+}
